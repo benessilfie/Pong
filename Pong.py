@@ -74,3 +74,7 @@ running = True
 # Game loop
 while running:
     wn.update()
+
+    # Move the ball
+    ball.setx(ball.xcor() + ball.dx)
+    ball.sety(ball.ycor() + ball.dy)
