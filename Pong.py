@@ -94,4 +94,4 @@ while running:
 
     if ball.xcor() < -390:
         ball.goto(0, 0)
-        ball.dx *= -2
+        ball.dx *= -1
